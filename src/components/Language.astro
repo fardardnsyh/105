@@ -1,0 +1,19 @@
+---
+import { languages } from '@/cv.json';
+import Section from '@/components/Section.astro';
+import Pill from '@/components/Pill.astro';
+
+const title = 'Idiomas';
+---
+
+<Section title={title}>
+    <ul class="flex flex-wrap gap-2 justify-stretch">
+        {
+            languages.map((l) => (
+                <li>
+                    <Pill>{`${l.language} - ${l.fluency}`}</Pill>
+                </li>
+            ))
+        }
+    </ul>
+</Section>

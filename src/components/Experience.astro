@@ -1,0 +1,32 @@
+---
+import { work } from "@/cv.json";
+import Section from "@/components/Section.astro";
+import Card from "@/components/Card.astro";
+import Text from "@/components/Text.astro";
+
+const title = "Experiencia";
+
+work.sort((a, b) =>
+    a.startDate > b.startDate ? -1 : b.startDate > a.startDate ? 1 : 0,
+);
+---
+
+<Section title={title}>
+    <ul class="flex flex-col gap-4">
+        {
+            work.map((w) => (
+                <li>
+                    <Card
+                        title={w.position}
+                        subtitle={w.name}
+                        subUrl={w.url}
+                        start={w.startDate}
+                        end={w.endDate}
+                    >
+                        <Text>{w.summary}</Text>
+                    </Card>
+                </li>
+            ))
+        }
+    </ul>
+</Section>

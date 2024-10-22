@@ -1,0 +1,30 @@
+---
+import { education } from '@/cv.json';
+import Section from '@/components/Section.astro';
+import Card from '@/components/Card.astro';
+
+const title = 'Educación';
+
+education.sort((a, b) =>
+    a.endDate > b.endDate ? -1 : b.endDate > a.endDate ? 1 : 0,
+);
+---
+
+<Section title={title}>
+    <ul class="flex flex-col gap-4">
+        {
+            education.map((e) => {
+                const subtitle = `${e.institution} - ${e.studyType}`;
+                return (<li>
+                    <Card
+                        title={e.area}
+                        subtitle={subtitle}
+                        subUrl={e.url}
+                        start={e.startDate}
+                        end={e.endDate}
+                    ></Card>
+                </li>);
+            })
+        }
+    </ul>
+</Section>

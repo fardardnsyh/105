@@ -1,0 +1,19 @@
+---
+import { skills } from '@/cv.json';
+import Section from '@/components/Section.astro';
+import Pill from '@/components/Pill.astro';
+
+const title = 'Habilidades';
+---
+
+<Section title={title}>
+    <ul class="flex flex-wrap gap-2 justify-stretch">
+        {
+            skills.map((e) => (
+                <li>
+                    <Pill>{e.name}</Pill>
+                </li>
+            ))
+        }
+    </ul>
+</Section>

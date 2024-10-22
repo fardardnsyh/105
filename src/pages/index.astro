@@ -1,0 +1,35 @@
+---
+import '@fontsource-variable/montserrat';
+import Hero from '@/components/Hero.astro';
+import About from '@/components/About.astro';
+import Experience from '@/components/Experience.astro';
+import Education from '@/components/Education.astro';
+import Skills from '@/components/Skills.astro';
+import Language from '@/components/Language.astro';
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <title>Hoja de Vida</title>
+    </head>
+    <body>
+        <main class="print:m-0 my-10 mx-5">
+            <Hero />
+            <About />
+            <Experience />
+            <Education />
+            <Skills />
+            <Language />
+        </main>
+    </body>
+</html>
+<style is:global>
+    html {
+        font-family: 'Montserrat Variable', sans-serif;
+    }
+</style>

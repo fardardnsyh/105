@@ -1,0 +1,31 @@
+---
+import type { SocialIcon } from "@/types";
+import Github from "@/icons/Github.astro";
+import Linkedin from "@/icons/Linkedin.astro";
+import Mail from '@/icons/Mail.astro';
+import Location from '@/icons/Location.astro';
+import Phone from '@/icons/Phone.astro';
+
+interface Props {
+    network: string;
+    text: string;
+    url?: string;
+}
+
+const SOCIAL_ICONS: SocialIcon = {
+    Github,
+    Linkedin,
+    Mail,
+    Location,
+    Phone,
+};
+
+const { network, url, text } = Astro.props;
+const Icon = SOCIAL_ICONS[network];
+const ICON_SIZE = 20;
+---
+<span class="text-sm flex gap-1">
+    <Icon size={ICON_SIZE} />
+    {url && <a href={url} target="_blank">{text}</a>}
+    {!url && text}
+</span>

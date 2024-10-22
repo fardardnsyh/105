@@ -1,0 +1,224 @@
+{
+  "basics": {
+    "name": "Daniel Alfonso Arteta Salazar",
+    "label": "Economista | Analista | Programador",
+    "image": "https://avatars.githubusercontent.com/u/66077472?v=4",
+    "email": "danielatts97@gmail.com",
+    "phone": "+57 312 525 7772",
+    "url": "https://johndoe.com",
+    "summary": "Profesional en economía apasionado por las tecnologías de la informática. Tengo amplios conocimientos en ciencia de datos haciendo uso de diferentes tecnologías para el manejo y uso de bases de datos. Además, cuento con experiencia trabajando en el desarrollo de aplicaiones y servidores web. Mi enfoque proactivo y propositivo me permite afrontar desafíos con determinación, y mi capacidad para trabajar en equipo me convierte en un colaborador eficiente y comprometido.",
+    "location": {
+      "address": "Cl 24B # 71 - 04",
+      "postalCode": "110931",
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Danatts",
+        "url": "https://github.com/Danatts"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Daniel Alfonso Arteta Salazar",
+        "url": "https://www.linkedin.com/in/danielartetasalazar/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Registraduria Nacional de Colombia",
+      "position": "Profesional universitario",
+      "url": "https://www.registraduria.gov.co/",
+      "startDate": "2023-09-1",
+      "endDate": "2024-02-31",
+      "summary": "Desempeñé funciones que abarcaron desde el respaldo en la gestión y presentación de datos para la elaboración de informes, participación en la logística y desarrollo de procesos electorales y atención al público, asegurando un servicio eficiente y satisfactorio.",
+      "highlights": [
+        "Apoyo en el manejo y presentación de datos para la generación de informes",
+        "Apoyo en la logística y desarrollo de procesos electorales",
+        "Atención al público"
+      ]
+    },
+    {
+      "name": "Coally",
+      "position": "Desarrollador frontend",
+      "url": "https://coally.com/",
+      "startDate": "2022-10-01",
+      "endDate": "2023-04-31",
+      "summary": "Startup colombiana dedicada a la conexión entre empresas y talento joven mediante inteligencia artificial. Mi rol incluía el desarrollo y mantenimiento de la aplicación web usando React, la garantía de la calidad del producto a través de testing y la implementación de metodologías ágiles en colaboración con el equipo de desarrollo.",
+      "highlights": [
+        "Desarrollo y mantenimiento de la aplicación web de la empresa",
+        "Aseguramiento de la calidad del producto",
+        "Aplicación de metodologías ágiles"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional de Colombia",
+      "url": "https://unal.edu.co/",
+      "area": "Economía",
+      "studyType": "Pregrado",
+      "startDate": "2015-02-01",
+      "endDate": "2022-11-01",
+      "score": "3.7",
+      "courses": []
+    },
+    {
+      "institution": "Universidad del Rosario",
+      "url": "https://urosario.edu.co/",
+      "area": "Ciencia de datos",
+      "studyType": "Diplomado",
+      "startDate": "2023-06-01",
+      "endDate": "2023-08-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad del Norte",
+      "url": "https://www.uninorte.edu.co/",
+      "area": "Habilidades digitales de programación",
+      "studyType": "Programa estatal",
+      "startDate": "2020-02-01",
+      "endDate": "2020-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Make It Real",
+      "url": "https://www.uninorte.edu.co/",
+      "area": "Programación web fullstack",
+      "studyType": "Bootcamp",
+      "startDate": "2022-02-01",
+      "endDate": "2022-06-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "PowerBi",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Javascript",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Excel",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "ReactJS",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "NodeJS",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglés",
+      "fluency": "Avanzado"
+    },
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Ajedrez",
+      "keywords": []
+    },
+    {
+      "name": "Calistenia",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "startDate": "",
+      "endDate": "",
+      "description": "",
+      "highlights": [],
+      "url": ""
+    }
+  ]
+}
